@@ -1,0 +1,8 @@
+original thumbnail never get deleted
+bug fixes (pagination)
+pop up for onlinedb
+
+
+(lower priority)
+online database can run reid and have seperate display for online&local reid runs / download images
+store original photos??

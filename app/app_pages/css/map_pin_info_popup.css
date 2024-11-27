@@ -1,0 +1,107 @@
+QDialog {
+    background: qlineargradient(
+        x1: 0, y1: 0,
+        x2: 1, y2: 1,
+        stop: 0 #d0d9d0,
+        stop: 1 #809c76
+    );
+}
+
+#thumbnailFrame {
+    background-color: #3a4636;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#prevButton, #nextButton {
+    color: white;
+    background-color: #47603e;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prevButton:disabled, #nextButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prevButton:hover, #nextButton:hover {
+    background-color: #3a4636;
+}
+
+#prevButton:pressed, #nextButton:pressed {
+    background-color: #47603e;
+}
+
+#selectedPageButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#unselectedPageButton {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#firstPageButton, #lastPageButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#firstPageButton:disabled, #lastPageButton:disabled {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#minButton, #maxButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#groupLabel, #confidenceLabel, #animalLabel, #userLabel {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #47603e;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+
+QDialog {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#confidenceLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #47603e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#minInput, #maxInput {
+    background-color: #3a4636;
+    color: white;
+    border: 1px solid #809c76;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}

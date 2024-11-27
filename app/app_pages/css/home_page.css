@@ -1,0 +1,66 @@
+#title, #welcomeTitle {
+    color: #333;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+
+QWidget {
+        background-color: transparent;
+}
+
+QPushButton {
+    color: #ffffff;
+    background-color: #47603e;
+    font-size: 13px;
+    border-radius: 8px;
+    font-weight: normal;
+    border: 1px solid #3a4636;
+}
+
+QPushButton:hover {
+    background-color: #3a4636;
+}
+
+QPushButton:pressed {
+    background-color: #1b2418;
+}
+
+#links_title, #sub_heading {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#banner_image {
+    border: none;
+}
+
+#banner_text {
+    position: absolute;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#middle_title, #funder_title{
+    border-top: 2px solid white;
+    position: absolute;
+    margin-top: 25px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#creatures_label{
+    border: 2px solid #3a4636;
+}

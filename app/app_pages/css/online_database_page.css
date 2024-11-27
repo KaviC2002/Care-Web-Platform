@@ -1,0 +1,219 @@
+#title {
+    color: black;
+    font-size: 20px;
+}
+
+#onlineImagesTree {
+    background-color: #3a4636;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#onlineImagesTree::item:selected {
+    background-color: #809c76;
+    color: white;
+}
+
+#onlineImagesTree QHeaderView::section {
+    background-color: #47603e;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#thumbnailFrame {
+    background-color: #3a4636;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#prevButton, #nextButton {
+    color: white;
+    background-color: #47603e;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prevButton:disabled, #nextButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prevButton:hover, #nextButton:hover {
+    background-color: #3a4636;
+}
+
+#prevButton:pressed, #nextButton:pressed {
+    background-color: #47603e;
+}
+
+#selectedPageButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#unselectedPageButton {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#firstPageButton, #lastPageButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#firstPageButton:disabled, #lastPageButton:disabled {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#minButton, #maxButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#uploadButton, #downloadButton, #reidButton, #deleteButton {
+    color: black;
+    background-color: lightgray;
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#uploadButton:disabled, #downloadButton:disabled, #reidButton:disabled, #deleteButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#uploadButton:hover, #downloadButton:hover, #reidButton:hover, #deleteButton:hover {
+    background-color: #d3d3d3;
+}
+
+#deleteSelectedButton {
+    color: white;
+    background-color: red;
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#deleteSelectedButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#deleteSelectedButton:hover {
+    background-color: darkred;
+}
+
+#deleteSelectedButton:pressed {
+    background-color: #a40000;
+}
+
+#downloadSelectedButton {
+    color: white;
+    background-color: #e5e113;
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#downloadSelectedButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#downloadSelectedButton:hover {
+    background-color: yellowgreen;
+}
+
+#downloadSelectedButton:pressed {
+    background-color: #e5e113;
+}
+
+#reidSelectedButton {
+    color: white;
+    background-color: lightblue;
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reidSelectedButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reidSelectedButton:hover {
+    background-color: blue;
+}
+
+#reidSelectedButton:pressed {
+    background-color: lightblue;
+}
+
+#animalDropDown {
+    background-color: #47603e;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#animalDropDown::drop-down {
+    background-color: #809c76;
+    width: 15px;
+    border-left: 1px solid #ccc;
+}
+
+#animalDropDown QAbstractItemView {
+    background-color: #809c76;
+    color: white;
+}
+
+#groupLabel, #confidenceLabel, #animalLabel, #userLabel {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #47603e;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+
+QDialog {
+    border-radius: 10px;
+    padding: 20px;
+}

@@ -1,0 +1,64 @@
+
+QMainWindow {
+    background: qlineargradient(
+        x1: 0, y1: 0,
+        x2: 1, y2: 1,
+        stop: 0 #d0d9d0,
+        stop: 1 #809c76
+    );
+}
+
+QListWidget {
+    background-color: #47603e;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+QListWidget::item {
+    height: 40px;
+}
+
+QListWidget::item:selected {
+    background-color: #3a4636;
+    color: white;
+}
+
+QPushButton#main_sync_button {
+    font-size: 14px;
+    padding: 9px 14px;
+    background-color: #4c6e4c;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #3a4636;
+}
+
+QPushButton#main_sync_button:hover {
+    background-color: #5b7f5b;
+}
+
+
+#sync_status_label {
+    color: white;
+}
+
+QPushButton#onlineDatabaseToggle {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 8px;
+    padding: 9px 14px;
+    text-align: center;
+    font-size: 14px;
+}
+
+QPushButton#onlineDatabaseToggle:checked {
+    background-color: #2ecc71;
+}
+
+QPushButton#onlineDatabaseToggle:hover {
+    background-color: #ffd439;
+}
+
+#network_status_label {
+    color: white;
+}

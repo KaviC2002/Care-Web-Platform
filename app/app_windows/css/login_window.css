@@ -1,0 +1,50 @@
+QDialog {
+    background: qlineargradient(
+        x1: 0, y1: 0,
+        x2: 1, y2: 1,
+        stop: 0 #d0d9d0,
+        stop: 1 #809c76
+    );
+}
+
+QLineEdit {
+    border: 1px solid #5c7c59;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+QLineEdit:focus {
+    border-color: #ffffff;
+}
+
+#login_button, #register_button {
+    color: #ffffff;
+    background-color: #47603e;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    font-weight: normal;
+}
+
+#login_button:hover, #register_button:hover {
+    background-color: #3a4636;
+}
+
+#login_button:pressed, #register_button:pressed {
+    background-color: #1b2418;
+}
+
+#sub_heading {
+    color: #333;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+#title {
+    color: #333;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 30px;
+}
+

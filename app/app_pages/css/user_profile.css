@@ -1,0 +1,25 @@
+#profileLabel {
+    color: black;
+}
+
+#signOutButton {
+    color: black;
+    background-color: lightgray;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#signOutButton:hover {
+    background-color: #b3b3b3;
+}
+
+#signOutButton:pressed {
+    background-color: #999999;
+}
+
+#signOutButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    border: 1px solid #ccc;
+}

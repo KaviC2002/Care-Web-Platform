@@ -1,0 +1,47 @@
+QDialog {
+    background: qlineargradient(
+        x1: 0, y1: 0,
+        x2: 1, y2: 1,
+        stop: 0 #d0d9d0,
+        stop: 1 #809c76
+    );
+}
+
+#groupLabel {
+    color: black;
+    font-size: 20px;
+}
+
+#zoomInButton, #zoomOutButton, #confirmButton {
+    color: white;
+    background-color: #47603e;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#zoomInButton:disabled, #zoomOutButton:disabled, #confirmButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#zoomInButton:hover, #zoomOutButton:hover, #confirmButton:hover {
+    background-color: #3a4636;
+}
+
+#zoomInButton:pressed, #zoomOutButton:pressed, #confirmButton:pressed {
+    background-color: #47603e;
+}
+
+QScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+QGraphicsView {
+    background-color: transparent;
+    border: none;
+}

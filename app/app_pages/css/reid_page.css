@@ -1,0 +1,206 @@
+#title {
+    color: black;
+    font-size: 20px;
+}
+
+#reidImagesTree {
+    background-color: #3a4636;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#reidImagesTree::item:selected {
+    background-color: #809c76;
+    color: white;
+}
+
+#reidImagesTree QHeaderView::section {
+    background-color: #47603e;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#deleteButton, #downloadButton {
+    color: black;
+    background-color: lightgray;
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#deleteButton:disabled, #downloadButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#deleteButton:hover, #downloadButton:hover {
+    background-color: #d3d3d3;
+}
+
+
+#deleteSelectedButton {
+    color: white;
+    background-color: red;
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#deleteSelectedButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#deleteSelectedButton:hover {
+    background-color: darkred;
+}
+
+#deleteSelectedButton:pressed {
+    background-color: #a40000;
+}
+
+#downloadSelectedButton {
+    color: white;
+    background-color: #e5e113;
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#downloadSelectedButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#downloadSelectedButton:hover {
+    background-color: darkred;
+}
+
+#downloadSelectedButton:pressed {
+    background-color: #e5e113;
+}
+
+#thumbnailFrame {
+    background-color: #3a4636;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#pageLabel {
+    color: black;
+}
+
+#prevButton, #nextButton {
+    color: white;
+    background-color: #47603e;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prevButton:disabled, #nextButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prevButton:hover, #nextButton:hover {
+    background-color: #3a4636;
+}
+
+#prevButton:pressed, #nextButton:pressed {
+    background-color: #47603e;
+}
+
+#selectAllCheckbox {
+    color: black;
+}
+
+#sortDropDown {
+    background-color: #47603e;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#sortDropDown::drop-down {
+    background-color: #809c76;
+    width: 15px;
+    border-left: 1px solid #ccc;
+}
+
+#sortDropDown QAbstractItemView {
+    background-color: #809c76;
+    color: white;
+}
+
+#selectedPageButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#unselectedPageButton {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#firstPageButton, #lastPageButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#firstPageButton:disabled, #lastPageButton:disabled {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#minButton, #maxButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#groupLabel, #confidenceLabel, #animalLabel, #userLabel {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #47603e;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#groupLabel:hover, #confidenceLabel:hover, #animalLabel:hover, #userLabel:hover {
+    background-color: #809c76;
+}
+
+QDialog {
+    border-radius: 10px;
+    padding: 20px;
+}

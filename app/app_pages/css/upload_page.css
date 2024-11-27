@@ -1,0 +1,134 @@
+#titleLabel {
+    color: black;
+    font-size: 20px;
+}
+
+#uploadButtonHighlighted {
+    color: white;
+    background-color: #47603e;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#uploadButtonHighlighted:hover {
+    background-color: #3a4636;
+}
+
+#uploadButtonHighlighted:pressed {
+    background-color: #47603e;
+}
+
+#uploadButtonDefault, #clearUploadButton {
+    color: black;
+    background-color: lightgray;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#uploadButtonDefault:hover, #clearUploadButton:hover {
+    background-color: #b3b3b3;
+}
+
+#uploadButtonDefault:pressed, #clearUploadButton:pressed {
+    background-color: #999999;
+}
+
+#uploadButtonDefault:disabled, #uploadButtonHighlighted:disabled, #clearUploadButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    border: 1px solid #ccc;
+}
+
+#processButton, #saveButton {
+    color: white;
+    background-color: #47603e;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#processButton:disabled, #saveButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    border: 1px solid #ccc;
+}
+
+#processButton:hover, #saveButton:hover {
+    background-color: #3a4636;
+}
+
+#processButton:pressed, #saveButton:pressed {
+    background-color: #47603e;
+}
+
+#progressBar {
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#progressBar::chunk {
+    background-color: #c8ecba;
+    width: 20px;
+}
+
+#thumbnailFrame {
+    background-color: #3a4636;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#prevButton, #nextButton {
+    color: white;
+    background-color: #47603e;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#prevButton:disabled, #nextButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+}
+
+#prevButton:hover, #nextButton:hover {
+    background-color: #3a4636;
+}
+
+#prevButton:pressed, #nextButton:pressed {
+    background-color: #47603e;
+}
+
+#pageLabel {
+    color: black;
+}
+
+#selectedPageButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#unselectedPageButton {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#firstPageButton, #lastPageButton {
+    color: white;
+    background-color: #47603e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#firstPageButton:disabled, #lastPageButton:disabled {
+    color: white;
+    background-color: rgba(211, 211, 211, 0.2);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

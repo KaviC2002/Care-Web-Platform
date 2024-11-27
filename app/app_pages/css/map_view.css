@@ -1,0 +1,37 @@
+#title {
+    color: black;
+}
+
+#zoomInButton, #zoomOutButton {
+    color: white;
+    background-color: #47603e;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#zoomInButton:disabled, #zoomOutButton:disabled {
+    color: gray;
+    background-color: #d3d3d3;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#zoomInButton:hover, #zoomOutButton:hover {
+    background-color: #3a4636;
+}
+
+#zoomInButton:pressed, #zoomOutButton:pressed {
+    background-color: #47603e;
+}
+
+QScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+QGraphicsView {
+    background-color: transparent;
+    border: none;
+}
